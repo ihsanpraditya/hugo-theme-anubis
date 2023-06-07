@@ -3,7 +3,7 @@
 
 <div class="post-info">
     {{- if .Params.date }}
-            <div class="post-date dt-published"><a class="u-url" href="/arsip/">{{ i18n "publishDate" }} <time datetime="{{ .PublishDate }}" title="{{ .PublishDate }}">{{ $pubdate }}</time><a/>
+            <div class="post-date dt-published"><a class="u-url" href="/arsip/">{{ i18n "publishDate" }} <time datetime="{{ .PublishDate }}" title="{{ .PublishDate }}">{{ $pubdate }}</time></a>
             </div>
     {{- end -}}
     {{- if .Lastmod }}
